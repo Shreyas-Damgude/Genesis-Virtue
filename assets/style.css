@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'icomoon';
-  src: url('fonts/icomoon.eot?2gatwr');
-  src: url('fonts/icomoon.eot?2gatwr#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?2gatwr') format('truetype'),
-    url('fonts/icomoon.woff?2gatwr') format('woff'),
-    url('fonts/icomoon.svg?2gatwr#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?2gatwr");
+  src: url("fonts/icomoon.eot?2gatwr#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?2gatwr") format("truetype"),
+    url("fonts/icomoon.woff?2gatwr") format("woff"),
+    url("fonts/icomoon.svg?2gatwr#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,7 +13,7 @@
 [class^="icon-"],
 [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -299,11 +299,6 @@
   color: rgb(76, 92, 225);
 }
 
-.icon-plan:before {
-  content: "\e93a";
-  color: #fff;
-}
-
 .icon-quality:before {
   content: "\e93b";
 }
@@ -320,7 +315,7 @@
   content: "\e93e";
 }
 
-.icon-twiter:before {
+.icon-twitter:before {
   content: "\e93f";
   color: #fff;
 }
