@@ -829,7 +829,6 @@ a {
 }
 .header .header__right {
   display: flex;
-  align-items: flex-end;
   justify-content: flex-end;
   flex: 1;
 }
@@ -920,7 +919,7 @@ a {
   display: block;
   font-size: 16px;
   font-weight: 700;
-  letter-spacing: -0.6px;
+  /* letter-spacing: -0.6px; */
 }
 @media only screen and (max-width: 1200px) {
   .header .header__right .main-nav .menu li {
@@ -2091,7 +2090,7 @@ a {
   background: none;
   border: none;
   outline: none;
-  margin-right: 175px;
+  left: 0;
 }
 
 /* Magnific Popup CSS */
@@ -3519,7 +3518,7 @@ img.mfp-img {
   position: relative;
   padding-bottom: 14px;
   margin-bottom: 21px;
-  letter-spacing: -1.5px;
+  /* letter-spacing: -1.5px; */
 }
 .roadmap-box .title::after {
   content: "";
@@ -3664,7 +3663,7 @@ img.mfp-img {
   text-align: center;
 }
 .team-box .content .name {
-  letter-spacing: -1.5px;
+  /* letter-spacing: -1.5px; */
   margin-bottom: 7px;
 }
 .team-box:hover .image::after {
