@@ -829,8 +829,9 @@ a {
 }
 .header .header__right {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex: 1;
 }
 .header .header__right .mobile-button {
   display: none;
@@ -2090,6 +2091,7 @@ a {
   background: none;
   border: none;
   outline: none;
+  margin-right: 175px;
 }
 
 /* Magnific Popup CSS */

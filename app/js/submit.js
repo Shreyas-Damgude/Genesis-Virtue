@@ -30,7 +30,7 @@ if (submitBtn)
 
     const dataArray = [...new FormData(detailsForm)];
     const empty = dataArray.findIndex(([_, value]) => value === "") + 1;
-    const email = dataArray.find(([field, _]) => field === "Email");
+    const email = dataArray.find(([field, _]) => field === "email");
 
     empty
       ? window.alert(`Enter ${dataArray[empty - 1][0]}`)
