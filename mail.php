@@ -36,7 +36,7 @@
         if (filter_var($userEmail, FILTER_VALIDATE_EMAIL)) { //validating user email
           $subject = "Thanks for Subscribing us - GenesisVirtue";
           $message = "Thanks for subscribing to our blog. You'll always receive updates from us. And we won't share and sell your information.";
-          $sender = "From: mailbox.rentit@gmail.com";
+          $sender = "From: shreyasdamgude@gmail.com";
           //php function to send mail
           if (mail($userEmail, $subject, $message, $sender)) {
       ?>
